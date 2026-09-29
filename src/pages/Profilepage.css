@@ -1,0 +1,26 @@
+.profilepage {
+    min-height: 100vh;
+    background-color: #f4f2ee;
+    padding: 40px;
+}
+
+.profiletitle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profilecontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .profilepage {
+        padding: 20px;
+    }
+
+    .profilecontent {
+        width: 100%;
+    }
+}

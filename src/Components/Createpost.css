@@ -1,0 +1,91 @@
+.createpost {
+    width: 500px;
+    padding: 25px;
+    margin: 20px 50px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px #ccc;
+}
+
+.postinput {
+    width: 75%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    font-size: 15px;
+}
+
+.postbutton {
+    padding: 10px 18px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #0a66c2;
+    color: white;
+    cursor: pointer;
+}
+
+.postbutton:hover {
+    background-color: #004182;
+}
+
+.publishedpost {
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.publishedpost p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.publishedpost button {
+    padding: 7px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.likebtn {
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.commentinput {
+    padding: 7px;
+    margin-left: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.commentbtn {
+    padding: 7px 15px;
+    margin-left: 5px;
+    background-color: #0a66c2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.publishedcomment {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+
+.posttext {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}

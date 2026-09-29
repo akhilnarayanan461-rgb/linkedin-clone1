@@ -1,0 +1,38 @@
+.jobcard {
+    width: 350px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px #ccc;
+}
+.jobscontainer {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.applybtn {
+    padding: 8px 18px;
+    background-color: #0a66c2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.applybtn:hover {
+    background-color: #004182;
+}
+@media (max-width: 768px) {
+    .jobscontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .jobcard {
+        width: 85%;
+    }
+}

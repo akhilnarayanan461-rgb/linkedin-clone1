@@ -1,0 +1,60 @@
+.suggestedconnections {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px #ccc;
+}
+.heding{
+    color: #0a66c2;
+    text-align: center;
+    font-size: 30px;
+}
+.connectioncard {
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.connectioncard:last-child {
+    border-bottom: none;
+}
+
+.connectionname {
+    font-size: 18px;
+    margin: 0 0 6px 0;
+}
+
+.connectionemail {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 12px 0;
+    word-break: break-word;
+}
+
+.connectbtn {
+    padding: 7px 18px;
+    background-color: white;
+    color: #0a66c2;
+    border: 1px solid #0a66c2;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.connectbtn:hover {
+    background-color: #eef5fc;
+}
+
+.errormessage {
+    color: red;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .suggestedconnections {
+        width: 90%;
+        margin: 20px auto;
+        box-sizing: border-box;
+    }
+}

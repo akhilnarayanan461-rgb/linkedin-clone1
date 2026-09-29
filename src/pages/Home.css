@@ -1,0 +1,21 @@
+.home-title {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.homecontent {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+    background-color: #f3f2ef;
+    min-height: 70vh;
+}
+@media (max-width: 768px) {
+    .homecontent {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+}
