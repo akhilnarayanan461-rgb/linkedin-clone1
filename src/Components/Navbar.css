@@ -25,4 +25,21 @@
 
 .menu a:hover {
     color: #0a66c2;
+}@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .navbar h1 {
+        margin: 0;
+    }
+
+    .navbar div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
 }
